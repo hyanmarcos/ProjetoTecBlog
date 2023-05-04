@@ -1,0 +1,99 @@
+/*Limpar formatações padrão*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabecalho{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: orange;
+    text-align: center;
+    padding: 15px;          
+}
+
+a{
+    text-decoration: none;  
+}
+
+a:link, a:visited {    
+    color: #f7b600;
+}
+
+#cabecalho a:link, #cabecalho a:visited{
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#cabecalho a:hover{
+    color: orange;
+    background: white;
+    text-decoration: none;      
+}
+
+#menu,#logo{
+    margin: 20px;
+}
+
+#principal{    
+    width: 920px;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+#conteudo{
+    width: 660px;
+    float: left;
+}
+
+#lateral{
+    width: 240px;
+    float: right;
+    background: white;
+    margin-bottom: 20px;
+    padding-left: 5px;         
+}
+
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #CCC;
+}
+
+.post{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+h2{
+    color: #f7b600;
+}
+
+.data{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;    
+    display: block;
+}
+
+body{
+    background: rgb(238, 236, 236);
+}
+
+.cont-lateral{
+    background: white;         
+}
+
+
+h3{
+    color: #565656;
+    background: #ccc;
+    margin: 5px;
+}
